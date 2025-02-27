@@ -1,0 +1,6 @@
+# Ignore all .pkl files
+*.pkl
+
+# Optionally, ignore specific directories if needed
+/models/*.pkl
+/datasets/*.pkl
