@@ -187,7 +187,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 For questions or feedback, please contact:
 - Email: hustleronduty@gmail.com
-- GitHub: [@yourusername](https://github.com/Divith123)
+- GitHub: [@Divith123](https://github.com/Divith123)
 
 ---
 
