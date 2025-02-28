@@ -1,6 +1,4 @@
-To make the screenshots visible in your project, you can include them in your `README.md` file. Below is an updated version of your `README.md` that references the screenshots located in the `/screenshots` directory. The first image (`1.png`) will display the accuracy result, while the other two images (`2.png` and `3.png`) will showcase the user interface (UI).
 
----
 
 # Cyberbullying Detection App
 
