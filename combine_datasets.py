@@ -12,16 +12,12 @@ import sys
 nltk.download('stopwords')
 
 # Load datasets
-aggression_data = pd.read_csv("datasets/aggression_parsed_dataset.csv")
-attack_data = pd.read_csv("datasets/attack_parsed_dataset.csv")
 kaggle_data = pd.read_csv("datasets/kaggle_parsed_dataset.csv")
 racism_data = pd.read_csv("datasets/twitter_racism_parsed_dataset.csv")
 sexism_data = pd.read_csv("datasets/twitter_sexism_parsed_dataset.csv")
 youtube_data = pd.read_csv("datasets/youtube_parsed_dataset.csv")
 
 # Rename columns to match (if necessary)
-aggression_data = aggression_data.rename(columns={"Text": "text", "oh_label": "label"})
-attack_data = attack_data.rename(columns={"Text": "text", "oh_label": "label"})
 kaggle_data = kaggle_data.rename(columns={"Text": "text", "oh_label": "label"})
 racism_data = racism_data.rename(columns={"Text": "text", "oh_label": "label"})
 sexism_data = sexism_data.rename(columns={"Text": "text", "oh_label": "label"})
@@ -29,8 +25,6 @@ youtube_data = youtube_data.rename(columns={"Text": "text", "oh_label": "label"}
 
 # Combine datasets
 combined_data = pd.concat([
-    aggression_data[["text", "label"]],
-    attack_data[["text", "label"]],
     kaggle_data[["text", "label"]],
     racism_data[["text", "label"]],
     sexism_data[["text", "label"]],
